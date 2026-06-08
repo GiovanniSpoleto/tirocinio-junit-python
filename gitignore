@@ -1,0 +1,20 @@
+# Ambiente virtuale
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Cache pytest e hypothesis
+.pytest_cache/
+.hypothesis/
+
+# File temporanei
+*.log
+*.tmp
+.DS_Store
+
+# Cartella con documenti personali
+roba da mandare/
