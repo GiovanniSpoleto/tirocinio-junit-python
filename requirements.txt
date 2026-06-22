@@ -3,4 +3,4 @@ pytest-check==2.8.0
 hypothesis==6.152.9
 pytest-mock==3.14.0
 pytest-html==4.1.1
-
+pytest-timeout==2.3.1
