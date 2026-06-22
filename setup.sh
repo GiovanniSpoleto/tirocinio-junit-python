@@ -53,7 +53,7 @@ pip list | grep -E "pytest|hypothesis|pytest-check"
 echo ""
 echo "[5/5] Esecuzione di tutti i test..."
 echo ""
-pytest test/ -v
+pytest test/ -v --html=report.html --self-contained-html
 
 echo ""
 echo "======================================================"
